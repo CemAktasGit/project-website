@@ -7,4 +7,5 @@ In html, the php files (containing php and html) for all the other pages of the 
 
 In "connect", PHP and MySQL is used to save user entries (in forms) on a local database. To run this part of the website, a local database called "website" is required, including the tables "registration" and "sendmessage" for the forms on the web pages "Registration" and "Contact Us".
 
-
+#Login System is not finished right now!
+In this branch, a login system will be developed. This will include a sign up form, and login/logout buttons. Initially, a "guest account" is possible. 
