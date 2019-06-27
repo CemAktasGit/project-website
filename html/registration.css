@@ -1,0 +1,277 @@
+/* ----------------GENERAL--------------------- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FBFBFB;
+}
+
+main {
+    padding: 0 0px;
+}
+
+main p {
+    font-family: "Montserrat", sans-serif;
+    font-weight:lighter;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+main h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight:lighter;
+    font-size: 2em;
+}
+
+
+/* ----------------Header LOGO--------------------- */
+
+
+
+/* -----------------NAV-------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    background-color: #272727;
+    height: 6em;
+}
+
+.logo {
+    cursor: pointer;
+    width: 10%;
+    
+}
+.container0 a {
+    text-decoration: none;
+    color: white; 
+    transition: all 0.3s ease 0s;
+}
+.container0 a:hover{
+    color: aqua;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3em;
+    height: 4em;
+}
+
+.box1b {
+    height: 6em;
+    width: 50%;
+    
+}
+
+.box1b ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    height: 6em;
+
+}
+
+.box1b li {
+    width: 50%;
+    padding: 0 1em;
+}
+
+
+.box1b a {
+    display:block;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: white; 
+}
+
+/* -----------------NAV-END------------------- */
+
+/* -----------------Main-------------------- */
+
+
+.container2 {
+    hyphens: auto;
+    text-align: justify;
+    background: #CDCDCD;
+    padding: 3% 10%; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container2 h2 {
+    text-align: center;
+    color: #005790;
+    font-size: 2em;
+}
+
+.container2 p {
+    margin-top: 3%;
+    color: #005790;
+}
+
+fieldset {
+    background: white;
+	border: 1px solid black;
+	border-radius: 1em;
+	margin: 2% 10%;
+}
+legend{
+    background: white;
+	border: 1px solid black;
+	border-radius: 1rem;
+	box-shadow: 0 0 0.5rem #888;
+	padding: 0.5rem 1rem;
+}
+
+
+.container3 ul{
+    padding: 1rem;
+}
+.container3 li {
+    list-style: none;
+    padding: 0 0 0 1rem;
+}
+.box3a {
+    display: flex;
+    justify-content:flex-start;
+}
+#message {
+    margin: 1rem;
+    height: 9rem;
+    width: 16rem;
+}
+
+
+
+.box3b li{
+    display: inline-block;
+}
+
+#submit {
+    margin-left: 45vw;
+    width: 5rem;
+    height: 1.3rem;
+    margin-bottom: 2vh;
+
+}
+
+.error {
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 10%;
+    background: #CDCDCD;
+}
+.container4 h2 {
+    text-align: center;
+    color: #005790;
+    font-size: 2em;
+}
+.container4 ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3% 10%;
+}
+.container4 li {
+    list-style: none;
+    color: #005790;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container5 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0;
+}
+.footer-social {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-social ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-social ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background:white;
+    transition: all 0.3s ease 0s;
+}
+.footer-social ul li:hover{background: aqua;}
+
+.container5 ul li a{
+    color: #272727;
+    font-size: 25px;
+    display: block;
+}
+.container5 ul li a i{
+    line-height: 50px;
+}
+
+.footer-menu{
+    width: 1005;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.footer-menu ul li a{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.footer-menu ul li a:hover{color: aqua;}
+
+.footer-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 0.6em;
+    transition: all 0.3s ease 0s;
+}
+.footer-last:hover{color: aqua;}
