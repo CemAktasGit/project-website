@@ -1,9 +1,0 @@
-Version 2.0 Updates
-
-- After submitting a form ("Registration" or "Contact Us") the verification (or error message) is shown in green (red).
-
-- the entries for "Registration" and "Contact Us" are checked before sending it to the database. They are checked for:
-    missing entries, valid characters for names and valid email
-    
-- If an error occurs after clicking "Submit", the user is redirected to the same page for corrections, including an error message
-  AND the entries are not deleted so that the user is not forced to type in everything again
