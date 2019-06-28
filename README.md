@@ -5,7 +5,7 @@ The content of the website is randomly chosen. The file "index.php" contains the
 
 In "html", the PHP files (containing PHP and HTML) for all the other pages of the website are stored.
 
-In "connect", PHP and MySQL is used to save user entries on a local database. To run this part of the website, a local database called "website" is required including the tables "registration" and "sendmessage" for the forms on the web pages "Registration" and "Contact Us".
+In "connect", PHP and MySQL is used to save user entries on a local database. To run this part of the website, a local database called "website" is required including the tables "registration", "sendmessage" and "users" for the forms on the web pages "Registration", "Contact Us" and "Signup".
 
 # 2019.06.27 Login System is not finished right now!
 In this branch, a login system will be developed. This will include a sign up form, and login/logout buttons.
