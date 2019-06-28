@@ -18,6 +18,20 @@
                 <li>    <a href="./contact.php">Contact Us</a> </li>
             </ul> 
         </div>
+        <div class="login">
+          <form action="../connect/login.php" method="post">
+            <input type="text" name="username" placeholder="Username"> 
+            <input type="password" name="password" placeholder="Password">
+            <br>
+            <button type="submit" name="button-login" >Login</button>
+          </form>
+        </div>
+        <div class=logout>
+          <a href="./signup.php">SignUp</a>
+          <form action="../connect/logout.php" method="post">
+            <button type="submit" name="button-logout" >Logout</button>
+          </form>  
+        </div>
       </header> 
 
 <!----------------------------END-NAVIGATE-------------------------------------------------->  

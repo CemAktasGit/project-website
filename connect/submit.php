@@ -17,11 +17,11 @@
         }
 
         else {
-        $sql= "insert into registration (firstname, lastname, age, course, payment, message) 
+            $sql= "insert into registration (firstname, lastname, age, course, payment, message) 
                 values ('$firstname','$lastname','$age','$course', '$payment', '$message');";
-        $result= mysqli_query($conn, $sql);
+            $result= mysqli_query($conn, $sql);
 
-        header("Location: ../html/registration2.php");
+            header("Location: ../html/registration2.php");
         }
 
       ?>
