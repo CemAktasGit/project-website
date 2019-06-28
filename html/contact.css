@@ -29,6 +29,18 @@ main h2 {
     font-size: 2em;
 }
 
+.errormessage {
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.successmessage {
+    color: limegreen;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
 
 /* ----------------Header LOGO--------------------- */
 
