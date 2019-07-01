@@ -13,4 +13,5 @@ In this branch, a login system will be developed. This will include a sign up fo
 # 2019.06.28 First Simple Version for the sign up form.
 Entries for the sign up from are checked for general mistakes and stored in the database.
 
-Next step: build the login/logout interaction.
+# 2019.07.01 Sign up, Login, Logout finished.
+Design for sign up, login and logout buttons and their exact positions are not finished. 
