@@ -30,6 +30,7 @@ main h2 {
 }
 
 
+
 /* ----------------Header LOGO--------------------- */
 
 
@@ -104,6 +105,10 @@ header {
 .logout {
     margin-right: 2rem;
     padding-right: 2rem;
+}
+
+.logintext {
+    color:lime;
 }
 
 /* -----------------NAV-END------------------- */
