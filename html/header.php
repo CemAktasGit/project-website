@@ -18,21 +18,34 @@
                 <li>    <a href="./contact.php">Contact Us</a> </li>
             </ul> 
         </div>
-        <div class="login">
-          <form action="../connect/login.php" method="post">
-            <input type="text" name="username" placeholder="Username"> 
-            <input type="password" name="password" placeholder="Password">
-            <br>
-            <button type="submit" name="button-login" >Login</button>
-          </form>
-        </div>
-        <div class=logout>
-          <a href="./signup.php">SignUp</a>
-          <form action="../connect/logout.php" method="post">
-            <button type="submit" name="button-logout" >Logout</button>
-          </form>  
-        </div>
-      </header> 
+            
+          <div class="login">
+            <?php
+                if (isset($_SESSION['username'])){
+                        echo "<p class='logintext'>Logged In</p>";
+                        
+                        echo     "<div class=logout> ";
+                        echo    "<form action='../connect/logout.php' method='post'>";
+                        echo    "<button type='submit' name='button-logout' >Logout</button>";
+                        echo "</div>";
+                    }
+                    else{
+                        echo "<form action='../connect/login.php' method='post'>";
+                        echo "<input type='text' name='username' placeholder='Username'>";
+                        echo "<input type='password' name='password' placeholder='Password'>";
+                        echo "<br>";
+                        echo "<button type='submit' name='button-login' >Login</button>";
+                        echo "</form>";
+                        
+                        echo    "<div class=logout> ";
+                        echo    "<a href='./html/signup.php'>SignUp</a>";
+                        echo "</div>";
+                        
+                    }
+                
+            ?>
+          </div>    
+      </header>    
 
 <!----------------------------END-NAVIGATE-------------------------------------------------->  
 
