@@ -37,19 +37,53 @@ main h2 {
 
 /* -----------------NAV-------------------- */
 header {
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.box1 {
+    flex: 1;
+}
+
+.box2{
+   flex: 1; 
+}
+
+.box3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2%;
+    padding: 0 0;
     background-color: #272727;
     height: 6em;
 }
 
 .logo {
     cursor: pointer;
-    width: 10%;
-    
+    width: 8%;
 }
+    
+.container0 {
+     display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    }
+
 .container0 a {
     text-decoration: none;
     color: white; 
@@ -65,7 +99,7 @@ header {
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-size: 1.3em;
-    height: 4em;
+    height: 6em;
 }
 
 .box1b {
@@ -109,7 +143,7 @@ header {
 
 .logintext {
     color:lime;
-}
+} */
 
 /* -----------------NAV-END------------------- */
 

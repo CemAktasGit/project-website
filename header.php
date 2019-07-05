@@ -26,35 +26,36 @@
       
       <header class="container0">
         <div class="box1">
-            <img class="logo" src="./img/logo2.png" alt="logo">
+        <!--    <img class="logo" src="./img/logo2.png" alt="logo"> -->
             <a href="./index.php">Random School</a>
         </div>
-        <div class="box1b">
+        <div class="box2">
             <ul class="nav-links">
                 <li>    <a href="./html/courses.php">Courses</a> </li>
                 <li>    <a href="./html/registration.php">Registration</a> </li>
-                <li>    <a href="./html/contact.php">Contact Us</a> </li>
+                <li>    <a href="./html/contact.php">Contact</a> </li>
             </ul> 
         </div>
-        <div class="login">
+        <div class="box3">
             <?php
                 if (isset($_SESSION['username'])){
                         echo "<p class='logintext'>Logged In</p>";
                         
-                        echo     "<div class=logout> ";
+                        echo "<div class=logout> ";
                         echo    "<form action='./connect/logout.php' method='post'>";
                         echo    "<button type='submit' name='button-logout' >Logout</button>";
                         echo "</div>";
                     }
                     else{
                         echo "<form action='./connect/login.php' method='post'>";
+                        echo "<div class=entry>";
                         echo "<input type='text' name='username' placeholder='Username'>";
                         echo "<input type='password' name='password' placeholder='Password'>";
-                        echo "<br>";
+                        echo "</div>";
                         echo "<button type='submit' name='button-login' >Login</button>";
                         echo "</form>";
                         
-                        echo    "<div class=logout> ";
+                        echo "<div class=signup> ";
                         echo    "<a href='./html/signup.php'>SignUp</a>";
                         echo "</div>";
                         
