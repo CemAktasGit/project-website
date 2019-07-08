@@ -18,4 +18,6 @@ In "connect", PHP and MySQL is used to save user entries on a local database. To
 * Sign up, Login and Logout are working. The design and exact positions for these are not finished.
 
 ## 2019.07.05 CSS
+* new header, nav.
 * Cleaning layout, CSS file ...
+
