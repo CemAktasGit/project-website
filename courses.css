@@ -30,7 +30,6 @@ main h2 {
 }
 
 
-
 /* ----------------Header LOGO--------------------- */
 
 
@@ -145,92 +144,6 @@ div.signup a{
 
 
 
-
-
-
-
-
-/* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0;
-    background-color: #272727;
-    height: 6em;
-}
-
-.logo {
-    cursor: pointer;
-    width: 8%;
-}
-    
-.container0 {
-     display: flex;
-    flex-direction: row;
-     justify-content: space-around;
-    }
-
-.container0 a {
-    text-decoration: none;
-    color: white; 
-    transition: all 0.3s ease 0s;
-}
-.container0 a:hover{
-    color: aqua;
-}
-
-.box1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3em;
-    height: 6em;
-}
-
-.box1b {
-    height: 6em;
-    width: 50%;
-    
-}
-
-.box1b ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    height: 6em;
-
-}
-
-.box1b li {
-    width: 50%;
-    padding: 0 1em;
-}
-
-
-.box1b a {
-    display:block;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.3em;
-    color: white; 
-}
-
-.login button {
-    height: 1.2rem;
-    width: 2rem;
-}
-.logout {
-    margin-right: 2rem;
-    padding-right: 2rem;
-}
-
-.logintext {
-    color:lime;
-} */
-
 /* -----------------NAV-END------------------- */
 
 /* -----------------Main-------------------- */
@@ -247,18 +160,6 @@ div.signup a{
     padding: 0;
 }
 
-.container2b {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
-    margin: 0 0 0 0;
-}
-
-.container2b img {
-    width: 100%;
-    padding: 0;
-}
 
 .container2 {
     hyphens: auto;
@@ -289,25 +190,23 @@ div.signup a{
     color: #005790;
     font-size: 1.3em;
 }
-.container3 h2{
-    text-align: center;
-    font-size: 1.5em;
-}
-.subcontainer3 {
+.container3 div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3%;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2em;
+    
 }
-.subcontainer3 div {
-    padding: 0 20px;
+
+.container3 p {
+    font-size: 1em;
 }
-.box4{flex: 1;}
-.box5{flex: 1;}
-.box4 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
-.box5 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
-.box4 a:hover{color: aqua;}
-.box5 a:hover{color: aqua;}
+.container3 img {
+    width: 50%;
+}
+
 
 .container4 {
     display: flex;

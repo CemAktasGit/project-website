@@ -1,14 +1,19 @@
 /* ----------------GENERAL--------------------- */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 
+:root {
+    --checkbox-field: none;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body, html{
     background: #FBFBFB;
+    min-height: 100%;
 }
 
 main {
@@ -20,7 +25,6 @@ main p {
     font-weight:lighter;
     font-size: 1.5em;
     line-height: 1.5em;
-
 }
 
 main h2 {
@@ -28,7 +32,6 @@ main h2 {
     font-weight:lighter;
     font-size: 2em;
 }
-
 
 
 /* ----------------Header LOGO--------------------- */
@@ -144,194 +147,88 @@ div.signup a{
 }
 
 
-
-
-
-
-
-
-/* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0;
-    background-color: #272727;
-    height: 6em;
-}
-
-.logo {
-    cursor: pointer;
-    width: 8%;
-}
-    
-.container0 {
-     display: flex;
-    flex-direction: row;
-     justify-content: space-around;
-    }
-
-.container0 a {
-    text-decoration: none;
-    color: white; 
-    transition: all 0.3s ease 0s;
-}
-.container0 a:hover{
-    color: aqua;
-}
-
-.box1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3em;
-    height: 6em;
-}
-
-.box1b {
-    height: 6em;
-    width: 50%;
-    
-}
-
-.box1b ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    height: 6em;
-
-}
-
-.box1b li {
-    width: 50%;
-    padding: 0 1em;
-}
-
-
-.box1b a {
-    display:block;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.3em;
-    color: white; 
-}
-
-.login button {
-    height: 1.2rem;
-    width: 2rem;
-}
-.logout {
-    margin-right: 2rem;
-    padding-right: 2rem;
-}
-
-.logintext {
-    color:lime;
-} */
-
 /* -----------------NAV-END------------------- */
 
 /* -----------------Main-------------------- */
-.container1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
-    margin: 0 0 0 0;
-}
-
-.container1 img {
-    width: 100%;
-    padding: 0;
-}
-
-.container2b {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:center;
-    margin: 0 0 0 0;
-}
-
-.container2b img {
-    width: 100%;
-    padding: 0;
-}
-
-.container2 {
-    hyphens: auto;
-    text-align: justify;
-    background: #CDCDCD;
-    padding: 3% 10%; 
-    display: flex;
-    flex-direction: column;
-}
-
-
-.container2 h2 {
-    text-align: center;
-    color: #005790;
-    font-size: 2em;
-}
-
-.container2 p {
-    margin-top: 3%;
-    color: #005790;
-}
 
 .container3 {
-    display: flex;
-    flex-direction: column;
-    font-family: "Montserrat", sans-serif;
-    padding: 3% 10%;
-    color: #005790;
-    font-size: 1.3em;
+    min-height: 100vh;
 }
-.container3 h2{
-    text-align: center;
-    font-size: 1.5em;
-}
-.subcontainer3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 3%;
-}
-.subcontainer3 div {
-    padding: 0 20px;
-}
-.box4{flex: 1;}
-.box5{flex: 1;}
-.box4 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
-.box5 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
-.box4 a:hover{color: aqua;}
-.box5 a:hover{color: aqua;}
 
-.container4 {
-    display: flex;
-    flex-direction: column;
-    padding: 3% 10%;
-    background: #CDCDCD;
+
+fieldset {
+    background: white;
+	border: 1px solid black;
+	border-radius: 1em;
+	margin: 2% 10%;
 }
-.container4 h2 {
-    text-align: center;
-    color: #005790;
-    font-size: 2em;
+legend{
+    background: white;
+	border: 1px solid black;
+	border-radius: 1rem;
+	box-shadow: 0 0 0.5rem #888;
+	padding: 0.5rem 1rem;
 }
-.container4 ul {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 3% 10%;
+
+.container3 p {
+    padding: 20vh;
 }
-.container4 li {
+
+.container3 a {
+    text-decoration: none;
+    color: black;
+  
+}
+.container3 button{
+margin-left: 45vw;
+    width: 5rem;
+    height: 1.3rem;
+}
+
+.container3 ul{
+    padding: 1rem;
+}
+.container3 li {
     list-style: none;
-    color: #005790;
-    font-size: 1.5em;
-    font-family: "Montserrat", sans-serif;
+    padding: 0 0 0 1rem;
 }
+.box3a {
+    display: flex;
+    justify-content: space-around;
+}
+#message {
+    margin: 1rem;
+    height: 9rem;
+    width: 16rem;
+}
+
+.container3 p {
+    color: limegreen;
+}
+
+/*
+.sendbutton {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 1rem 0;
+    font-size: 12px; */
+    
+}
+.sendbutton button {
+    font-size: 20px;
+}
+
+.box3b li{
+    display: inline-block;
+}
+
+
+#datacheck {
+    display: var(--checkbox-field);
+}
+
+
+
 
 .container5 {
     width: 100%;
