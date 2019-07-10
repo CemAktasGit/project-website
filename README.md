@@ -16,4 +16,5 @@ In "connect", PHP and MySQL is used to save user entries on a local database. To
 ## 2019.07.01 Sign up, Login, Logout finished.
 * Sign up, Login and Logout are working. The design and exact positions for these are not finished.
 
-
+## 2019.07.05 Clean Header
+* new formating for login, navbar
