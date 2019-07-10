@@ -145,26 +145,6 @@ div.signup a{
     justify-content: space-around;    
 }
 
-.box1 {
-    flex: 1;
-}
-
-.box2{
-   flex: 1; 
-}
-
-.box3 {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.entry {
-    display: flex;
-    flex-direction: column;
-}
-
 
 
 /* -----------------NAV-END------------------- */
