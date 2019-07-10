@@ -39,28 +39,115 @@ main h2 {
 header {
     background-color: #272727;
     display: flex;
-    justify-content: space-around;    
-}
-
-.box1 {
-    flex: 1;
-}
-
-.box2{
-   flex: 1; 
-}
-
-.box3 {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    height: 6em;
+    font-family: "Montserrat", sans-serif;
 }
 
-.entry {
+.container0 {
     display: flex;
     flex-direction: column;
 }
+
+.container0 a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.container0 a:hover{
+    color:cornflowerblue;
+    transition: all 0.3s ease 0s;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #333232;
+}
+
+.box1 form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3vw;
+}
+
+.box1 button {
+    display: flex;
+    flex-direction: column;
+    height: 1.5em;
+    justify-content: center;
+}
+div.entry {
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+
+}
+.entry-field1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry input {
+    height: 1.5em;
+    width: 10vw;
+}
+
+.signup {
+    margin: 0 3vw 0 0;
+}
+
+div.signup a{
+    text-decoration: none;
+    color: aliceblue;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box2{
+   flex: 2;
+}
+
+.box2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 4em;
+}
+
+.box2 ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    margin: 0 2.5vw;
+}
+
+.logintext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: lime;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
@@ -77,7 +164,7 @@ header {
     cursor: pointer;
     width: 8%;
 }
-    
+
 .container0 {
      display: flex;
     flex-direction: row;
@@ -86,7 +173,7 @@ header {
 
 .container0 a {
     text-decoration: none;
-    color: white; 
+    color: white;
     transition: all 0.3s ease 0s;
 }
 .container0 a:hover{
@@ -105,7 +192,7 @@ header {
 .box1b {
     height: 6em;
     width: 50%;
-    
+
 }
 
 .box1b ul{
@@ -129,7 +216,7 @@ header {
     text-decoration: none;
     font-weight: 500;
     font-size: 1.3em;
-    color: white; 
+    color: white;
 }
 
 .login button {
@@ -178,7 +265,7 @@ header {
     hyphens: auto;
     text-align: justify;
     background: #CDCDCD;
-    padding: 3% 10%; 
+    padding: 3% 10%;
     display: flex;
     flex-direction: column;
 }
@@ -216,13 +303,10 @@ header {
 .subcontainer3 div {
     padding: 0 20px;
 }
-.box2{flex: 1;}
 .box4{flex: 1;}
 .box5{flex: 1;}
-.box2 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
 .box4 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
 .box5 a {border: 1px solid; text-decoration: none;color:#005790; transition: all 0.3s ease 0s;}
-.box2 a:hover{color: aqua;}
 .box4 a:hover{color: aqua;}
 .box5 a:hover{color: aqua;}
 
