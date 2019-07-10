@@ -22,14 +22,3 @@ In "connect", PHP and MySQL is used to save user entries on a local database. To
 * new header, nav.
 * Cleaning layout, CSS file ...
 
-## 2019.06.27 Login System project!
-* Next: A login system will be developed. This will include a sign up form, and login/logout buttons.
-
-## 2019.06.28 First Simple Version for the sign up form.
-* Entries for the sign up form are checked for general mistakes and stored in the database.
-
-## 2019.07.01 Sign up, Login, Logout finished.
-* Sign up, Login and Logout are working. The design and exact positions for these are not finished.
-
-
-
