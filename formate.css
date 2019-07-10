@@ -142,95 +142,30 @@ div.signup a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-
-
-
-
-
-
-
-/* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0;
-    background-color: #272727;
-    height: 6em;
-}
-
-.logo {
-    cursor: pointer;
-    width: 8%;
-}
-
-.container0 {
-     display: flex;
-    flex-direction: row;
-     justify-content: space-around;
-    }
-
-.container0 a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s ease 0s;
-}
-.container0 a:hover{
-    color: aqua;
+    justify-content: space-around;    
 }
 
 .box1 {
+    flex: 1;
+}
+
+.box2{
+   flex: 1; 
+}
+
+.box3 {
+    flex: 1;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3em;
-    height: 6em;
+    justify-content: space-around;
 }
 
-.box1b {
-    height: 6em;
-    width: 50%;
-
-}
-
-.box1b ul{
+.entry {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    height: 6em;
-
-}
-
-.box1b li {
-    width: 50%;
-    padding: 0 1em;
+    flex-direction: column;
 }
 
 
-.box1b a {
-    display:block;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.3em;
-    color: white;
-}
-
-.login button {
-    height: 1.2rem;
-    width: 2rem;
-}
-.logout {
-    margin-right: 2rem;
-    padding-right: 2rem;
-}
-
-.logintext {
-    color:lime;
-} */
 
 /* -----------------NAV-END------------------- */
 
