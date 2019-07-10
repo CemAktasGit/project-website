@@ -40,70 +40,112 @@ main h2 {
 
 /* -----------------NAV-------------------- */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2%;
     background-color: #272727;
+    display: flex;
+    justify-content: space-around;    
     height: 6em;
+    font-family: "Montserrat", sans-serif;
 }
 
-.logo {
-    cursor: pointer;
-    width: 10%;
-    
+.container0 {
+    display: flex;
+    flex-direction: column;
 }
-.container0 a {
+
+.container0 a{
+    color: aliceblue;
     text-decoration: none;
-    color: white; 
     transition: all 0.3s ease 0s;
 }
+
 .container0 a:hover{
-    color: aqua;
+    color:cornflowerblue;
+    transition: all 0.3s ease 0s;
 }
 
 .box1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.3em;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: #333232;
+}
+
+.box1 form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3vw;
+}
+
+.box1 button {
+    display: flex;
+    flex-direction: column;
+    height: 1.5em;
+    justify-content: center;
+}
+div.entry {
+    display: flex;
+    flex-direction: row;
+    
+}
+.entry-field1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry input {
+    height: 1.5em;
+    width: 10vw;
+}
+
+.signup {
+    margin: 0 3vw 0 0;
+}
+
+div.signup a{
+    text-decoration: none;
+    color: aliceblue;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box2{
+   flex: 2; 
+}
+
+.box2 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     height: 4em;
 }
 
-.box1b {
-    height: 6em;
-    width: 50%;
-    
-}
-
-.box1b ul{
+.box2 ul li {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style: none;
-    height: 6em;
-
-}
-
-.box1b li {
-    width: 50%;
-    padding: 0 1em;
-}
-
-
-.box1b a {
-    display:block;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.3em;
-    color: white; 
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    margin: 0 2.5vw;
 }
 
 .logintext {
-    color:lime;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: lime;
 }
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /* -----------------NAV-END------------------- */
 
